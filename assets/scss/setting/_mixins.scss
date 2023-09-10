@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+TC:wght@500;700;900&family=Rubik+Iso&family=Saira+Extra+Condensed:wght@300&family=Shrikhand&family=Siemreap&display=swap');
+
+
+// 字型設定
+@mixin fontFamily-NotoSans {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+@mixin fontFamily-Shrikhand {
+  font-family: 'Shrikhand', cursive;
+}
+@mixin fontFamily-Rubik {
+  font-family: 'Rubik Iso', cursive;
+}
+@mixin fontFamily-Siemreap {
+  font-family: 'Siemreap', sans-serif;
+}
+@mixin fontFamily-Black {
+  font-family: 'Black Ops One', cursive;
+}
+@mixin fontFamily-SairaExtra {
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+// 字型大小
+@mixin fontSize-96{
+  font-size: 96px;
+}
+@mixin fontSize-64{
+  font-size: 64px;
+}
+@mixin fontSize-48{
+  font-size: 48px;
+}
+@mixin fontSize-40{
+  font-size: 40px;
+}
+@mixin fontSize-32{
+  font-size: 32px;  
+}
+@mixin fontSize-24{
+  font-size: 24px;
+}
+@mixin fontSize-20{
+  font-size: 20px;
+}
+@mixin fontSize-16{
+  font-size: 16px;
+}
+
+
+// colorPrimary
+@mixin bgColor700 {
+  background: #7000FF;
+}
+@mixin color700 {
+  color: #7000FF;
+}
+@mixin bgColor110 {
+  background: #11002D;
+}
+@mixin color110 {
+  color: #11002D;
+}
+@mixin bgLinearGradient {
+  background: linear-gradient(180deg, #7000FF, #11002D);
+}
+@mixin bgColor6E0 {
+  background: #6E01F8;
+}
+@mixin color6E0 {
+  color: #6E01F8;
+}
+@mixin bgColor380 {
+  background: #380C7E;
+}
+@mixin color380 {
+  color: #380C7E;
+}
+@mixin bgColor1F0 {
+  background: #1F0F39;
+}
+@mixin color1F0 {
+  color: #1F0F39;
+}
+@mixin bgColorAD9 {
+  background: #AD93CF;
+}
+@mixin colorAD9 {
+  color: #AD93CF;
+}
+@mixin bgColor828 {
+  background: #828282;
+}
+@mixin color828 {
+  color: #828282;
+}
+@mixin bgColor1F0 {
+  background: #1F0F39;
+}
+@mixin color1F0 {
+  color: #1F0F39;
+}
+// colorNeutral
+@mixin bgColor000 {
+  background: #000000;
+}
+@mixin color000 {
+  color: #000000;
+}
+@mixin bgColorFFF {
+  background: #FFFFFF;
+}
+@mixin colorFFF {
+  color: #FFFFFF;
+}
+@mixin bgColorE9E {
+  background: #E9E2F3;
+}
+@mixin colorE9E {
+  color: #E9E2F3;
+}
+@mixin bgColor6D0 {
+  background: #6D01F7;
+}
+@mixin color6D0 {
+  color: #6D01F7;
+}
+@mixin bgRadialGradient {
+  background: radial-gradient(circle closest-side at center, #280850, #000000)
+}
+
+// 隱藏文字
+@mixin hideText {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}

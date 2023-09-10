@@ -1,0 +1,53 @@
+
+// product Menu start
+
+.pMenuBG {
+  @include bgColor000;
+  position: relative;
+}
+.pMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 0;
+}
+.pMenu a {
+  @include fontFamily-Shrikhand;
+  @include fontSize-24;
+  @include colorFFF;
+  display: block;
+  padding: 4px 80px;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  transition: .5s ease;
+  line-height: 36px;
+}
+.pMenu a:hover {
+  @include bgColorFFF;
+  @include color000;
+}
+
+// product Menu End
+
+// Responsive
+@media (max-width: 1024px) {
+  .pMenu a {
+    padding: 4px 70px;
+  }
+}
+@media (max-width: 992px) {
+  .pMenu a {
+    padding: 4px 40px;
+  }
+}
+@media (max-width: 767px) {
+  .pMenu {
+    gap: 8px;
+  }
+  .pMenu a {
+    @include fontSize-16;
+    padding: 4px 15px;
+    line-height: 24px;
+  }
+}
